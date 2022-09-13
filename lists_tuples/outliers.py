@@ -6,10 +6,29 @@ Created on Wed Sep 14 00:50:36 2022
 @author: ilirsheraj
 """
 # Create a list
-data = [4, 5, 104, 105, 110, 120, 130, 130, 150,
-        160, 170, 183, 185, 187, 188, 191, 350, 360]
-print(data)
-print()
+# data = [4, 5, 104, 105, 110, 120, 130, 130, 150,
+#         160, 170, 183, 185, 187, 188, 191, 350, 360]
+# print(data)
+# print()
+
+# Manually delete the two last values
+# data = [4, 5, 104, 105, 110, 120, 130, 130, 150,
+#         160, 170, 183, 185, 187, 188, 191]
+
+# delete entries at the beginning
+# data = [104, 105, 110, 120, 130, 130, 150,
+#         160, 170, 183, 185, 187, 188, 191, 350, 360]
+
+# Remove the outlying values completely
+# data = [104, 105, 110, 120, 130, 130, 150,
+#         160, 170, 183, 185, 187, 188, 191]
+
+# List with all values out of range (should give empty list)
+# data = [1041, 1051, 1101, 1201, 1301, 1301, 1501,
+#         1601, 1701, 1831, 1851, 1871, 1881, 1911]
+
+# Give an empty list (should return an empty list)
+data = []
 
 # # delete from the beginning
 # del data[0:2]
