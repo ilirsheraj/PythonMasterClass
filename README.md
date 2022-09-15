@@ -1,1 +1,1 @@
-# Coding session from "Learn Python Programming Masterclass" from Udemy
+Learn Python Programming Masterclass
