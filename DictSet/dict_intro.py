@@ -17,17 +17,44 @@ vehicles = {
     }
 
 
-# Index dictionaries using the key
-my_car = vehicles["fiesta"]
-print(my_car)
+# # Index dictionaries using the key
+# my_car = vehicles["fiesta"]
+# print(my_car)
+# print()
+
+# commuter = vehicles["virago"]
+# print(commuter)
+# print()
+
+# learner = vehicles.get("er5")
+# print(learner)
+
+# learner = vehicles.get("ER5") # Returns None
+# print(learner)
+
+for key in vehicles:
+    print(key)
 print()
 
-commuter = vehicles["virago"]
-print(commuter)
+
+# Iterate key + value
+for key in vehicles:
+    print(key, vehicles[key])
 print()
 
-learner = vehicles.get("er5")
-print(learner)
 
-learner = vehicles.get("ER5") # Returns None
-print(learner)
+# make it better
+for key in vehicles:
+    print("{}: {}".format(key, vehicles[key]))
+print()
+
+
+# Another way using sep
+for key in vehicles:
+    print(key, vehicles[key], sep="; ")
+print()
+
+
+# Make it more efficient
+for key, value in vehicles.items():
+    print(key, value, sep = ": ")
