@@ -29,5 +29,5 @@ print()
 learner = vehicles.get("er5")
 print(learner)
 
-learner = vehicles.get("ER5")
+learner = vehicles.get("ER5") # Returns None
 print(learner)
