@@ -12,10 +12,12 @@ def add_shopping_item(data: dict, item: str, amount: int) -> None:
     """
     Add a tuple containing `item` and `amount` to the data dictionary.
     """
-    if item in data:
-        data[item] += amount
-    else:
-        data[item] = amount
+    # if item in data:
+    #     data[item] += amount
+    # else:
+    #     data[item] = amount
+    # Use a default method
+    data[item] = data.setdefault(item,0) + amount
     
 
 # Create a dictionary
