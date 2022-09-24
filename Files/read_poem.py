@@ -15,8 +15,17 @@ jabber = open("Jabberwocky.txt", "r")
     
 # jabber.close()
 
-# To remove the new empty line: Remove the default \n
-for line in jabber:
-    print(line, end="")
+# # To remove the new empty line: Remove the default \n
+# for line in jabber:
+#     print(line, end="")
     
+# jabber.close()
+
+# The other way is to strip off the line
+for line in jabber:
+#    print(line.strip(), end=" ")
+    print(line.strip())
+#    print(len(line))
+
+# Closing is essential, especially when writing data as it may be lost
 jabber.close()
