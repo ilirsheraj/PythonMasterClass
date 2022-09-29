@@ -18,17 +18,18 @@ dialect.delimiter = '|'
 # Initiate an empty dictionary
 countries = {}
 with open(input_filename,encoding="utf-8", newline="") as country_file:
-    # Get the columns headings from first line of the file
+    # Get the columns headings from first line of the first line of the file
     headings = country_file.readline().strip("\n").split(dialect.delimiter)
-    print(headings)
+    # print(headings)
     for index, heading in enumerate(headings):
-        heading[index] = heading.casefold()
+        headings[index] = heading.casefold()
+    # print(headings)
         
     dict_reader = csv.DictReader(country_file, dialect = dialect, fieldnames = headings)
     
     for row in dict_reader:
-        countries[row["Country"].casefold()] = row
-        countries[row["CC"].casefold()] = row
+        countries[row["country"].casefold()] = row
+        countries[row["cc"].casefold()] = row
         
 # Get the name of a country from a user and display its capital city
 while True:
@@ -37,11 +38,11 @@ while True:
     
     if country_key in countries:
         country_data = countries[country_key]
-        if country_data["Capital"] == "":
+        if country_data["capital"] == "":
             print(f"{name} has no capital city")
         else:
 #            print("The capital of {} is {}".format(name.capitalize(), country_data["capital"]))
-            print(f"The capital of {name} is {country_data['Capital']}")
+            print(f"The capital of {name} is {country_data['capital']}")
         
     elif country_key == "quit":
         break
