@@ -96,3 +96,28 @@ medals_table = [
     {'country': 'Syria', 'gold': 0, 'silver': 0, 'bronze': 1, 'rank': 86},
 ]
 
+columns = ['country', 'gold', 'silver', 'bronze'] #, 'rank']
+
+filename = 'country_medals.csv'
+
+# with open(filename, 'w', encoding='utf-8', newline= '') as output_file:
+#     writer = csv.DictWriter(output_file, fieldnames = columns)
+#     writer.writeheader() # If you dont call this, there will be no heading
+#     for row in medals_table:
+#         writer.writerow(row)
+
+# # You can dump the entire thing
+# with open(filename, 'w', encoding='utf-8', newline= '') as output_file:
+#     writer = csv.DictWriter(output_file, fieldnames = columns)
+#     writer.writeheader() # If you dont call this, there will be no heading
+#     writer.writerows(medals_table)
+
+# Sort the data
+
+def sort_key(d: dict) -> str:
+    return d['country']
+    
+with open(filename, 'w', encoding='utf-8', newline= '') as output_file:
+    writer = csv.DictWriter(output_file, fieldnames = columns, extrasaction='ignore') # if error is raised
+    writer.writeheader() # If you dont call this, there will be no heading
+    writer.writerows(sorted(medals_table, key = sort_key))
