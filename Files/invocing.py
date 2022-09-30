@@ -116,3 +116,4 @@ data_file = "invoices.csv"
 
 with open(data_file, "r+") as invoices:
     record_invoice(invoices, "ACME Roadrunner", 18.40)
+    record_invoice(invoices, "Squirrel Storage", 320.55)
