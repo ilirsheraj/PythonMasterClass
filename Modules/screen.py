@@ -5,14 +5,17 @@ main_window = tkinter.Tk()
 main_window.title("Grid Demo")
 main_window.geometry("640x480+8+200")
 
+# Add Padding
+main_window["padx"] = 8
+
 label = tkinter.Label(main_window, text="Tkinter Grid Demo")
 label.grid(row=0, column=0, columnspan=3)
 
-main_window.columnconfigure(0, weight=1)
+main_window.columnconfigure(0, weight=100)
 main_window.columnconfigure(1, weight=1)
-main_window.columnconfigure(2, weight=3)
-main_window.columnconfigure(3, weight=3)
-main_window.columnconfigure(4, weight=3)
+main_window.columnconfigure(2, weight=1000)
+main_window.columnconfigure(3, weight=600)
+main_window.columnconfigure(4, weight=1000)
 
 main_window.rowconfigure(0, weight=1)
 main_window.rowconfigure(1, weight=10)
@@ -52,7 +55,7 @@ radio3.grid(row=3, column=0, sticky="w")
 resultLabel = tkinter.Label(main_window, text="Result")
 resultLabel.grid(row=2, column=2, sticky="nw")
 result = tkinter.Entry(main_window)
-result.grid(row=2, column=2,sticky="sw")
+result.grid(row=2, column=2, sticky="sw")
 
 # Frame for the time spinners
 timeFrame = tkinter.LabelFrame(main_window, text="Time")
@@ -87,6 +90,13 @@ yearSpin = tkinter.Spinbox(dateFrame, width=5, from_=2000, to=2099)
 daySpin.grid(row=1, column=0)
 monthSpin.grid(row=1, column=1)
 yearSpin.grid(row=1, column=2)
+
+# Add OK and Cancer buttons
+okButton = tkinter.Button(main_window, text="OK")
+# main_window.destroy will close it
+cancelButton = tkinter.Button(main_window, text="Cancel", command=main_window.destroy)
+okButton.grid(row=4, column=4, sticky="w")
+cancelButton.grid(row=4, column=4, sticky="e")
 
 main_window.mainloop()
 
