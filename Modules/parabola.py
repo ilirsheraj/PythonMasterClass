@@ -8,7 +8,7 @@ def parabola(x):
 	:param x: integers or floats
 	:return: integers or float
 	"""
-	y = x * x/100
+	y = x * x / 100
 	return y
 
 
@@ -28,21 +28,16 @@ def draw_axis(canvas):
 def plot(canvas, x, y):
 	canvas.create_line(x, y, x + 1, y + 1, fill="red")
 
+
 mainWindow = tkinter.Tk()
 
 mainWindow.title("Parabola")
 mainWindow.geometry("640x480")
 
-canvas = tkinter.Canvas(mainWindow, width=320, height=480)
+canvas = tkinter.Canvas(mainWindow, width=640, height=480)
 canvas.grid(row=0, column=0)
 
-canvas2 = tkinter.Canvas(mainWindow, width=320, height=480, background="blue")
-canvas2.grid(row=0, column=1)
-
-print(repr(canvas))
-print(repr(canvas2))
 draw_axis(canvas)
-draw_axis(canvas2)
 
 for x in range(-100, 101):
 	y = parabola(x)
