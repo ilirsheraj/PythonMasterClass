@@ -1,6 +1,9 @@
 # Here we will build a Kettle class: It's going to model an electric Kettle
 class Kettle(object):
 
+	# power_source will be shared by all instances, it's a class attribute
+	power_source = "Electricity"
+
 	def __init__(self, make, price):
 		self.make = make
 		self.price = price
@@ -44,4 +47,21 @@ print("-"*30)
 kenwood.power = 1.5
 print(kenwood.power)
 # hamilton.power will give error because it does not have any such attribute
-print(hamilton.power)
+# print(hamilton.power)
+print()
+
+# Change power source for class, and it will be inherited by all instances
+print("Switch to atomic power")
+Kettle.power_source = "Atomic"
+print(Kettle.power_source)
+print("Switch kenwood to gas")
+kenwood.power_source = "Gas"
+print(kenwood.power_source)
+# Hamilton will not be affected because of its definition in class
+print(hamilton.power_source)
+print()
+
+print("Dictionary of namespaces of the classes and instances can be accessed by: ")
+print(Kettle.__dict__)
+print(kenwood.__dict__)
+print(hamilton.__dict__)
