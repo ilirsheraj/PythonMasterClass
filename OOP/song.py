@@ -8,16 +8,7 @@ class Song:
 		duration (int): The duration of the song in seconds. Could be zero
 	"""
 
-	def __int__(self, title, artist, duration=0):
-		"""
-		Song init method
-
-		Args:
-			title (str): Initializes the title attribute.
-			artist (Artist): An Artist object representing the song's creator.
-			duration (Optional [int]): Initial value for the `duration` attribute.
-				Will default to zero if not specified
-		"""
+	def __init__(self, title, artist, duration=0):
 		self.title = title
 		self.artist = artist
 		self.duration = duration
@@ -33,15 +24,15 @@ class Album:
 		artist: (Artist): The artist responsible for the album
 			If not specified, the artist will default to an artist with the name
 			`Various Artists`
-		tracks (List[Song]): A list of songs in the album
+		tracks (List[Song]): A list of songs on the album
 
 	Methods:
 		add_song: used to build a new song to the album's track list
 	"""
 
 	def __init__(self, name, year, artist=None):
-		self.name = name
 		self.year = year
+		self.name = name
 		if artist is None:
 			self.artist = Artist("Various Artists")
 		else:
@@ -82,7 +73,7 @@ class Artist:
 		self.name = name
 		self.albums = []
 
-	def add_album(self, album):
+	def add_albums(self, album):
 		"""
 		Add a new album to the list
 
@@ -103,8 +94,54 @@ def load_data():
 			# data row should consist of (artist, album, year, song)
 			artist_field, album_field, year_field, song_field = tuple(line.strip("\n").split("\t"))
 			year_field = int(year_field)
-			print(artist_field, album_field, year_field, song_field)
+			print("{}:{}:{}:{}".format(artist_field, album_field, year_field, song_field))
+
+			if new_artist is None:
+				new_artist = Artist(artist_field)
+			elif new_artist.name != artist_field:
+				# We have just read details of a new artist
+				# Store the current album in the current artists collection then create a new artist object
+				new_artist.add_albums(new_album)
+				artist_list.append(new_artist)
+				new_artist = Artist(artist_field)
+				new_album = None
+
+			if new_album is None:
+				new_album = Album(artist_field, album_field, year_field)
+			elif new_album.name != album_field:
+				# We have just read a new album from the current artist
+				# Store the current album in the artists collection and then create a new album object
+				new_artist.add_albums(new_album)
+				new_album = Album(album_field, year_field, new_artist)
+
+			# Create a new song object and add it to the current albums collection
+			new_song = Song(song_field, new_artist)
+			new_album.add_song(new_song)
+
+		# After reading the last line of the text file, we are going to have an artist and album that
+		# haven't been stored, and we will process them now
+		if new_artist is not None:
+			if new_album is not None:
+				new_artist.add_albums(new_album)
+			artist_list.append(new_artist)
+
+	return artist_list
+
+
+# Define a function
+def create_checkfile(artist_list):
+	"""
+	Create a check file from the object data for comparison with the original file
+	"""
+	with open("checkfile.txt", "w") as checkfile:
+		for new_artist in artist_list:
+			for new_album in new_artist.albums:
+				for new_song in new_album.tracks:
+					print("{0.name}\t{1.name}\t{1.year}\t{2.title}".format(new_artist, new_album, new_song), file=checkfile)
 
 
 if __name__ == '__main__':
-	load_data()
+	artists = load_data()
+	print("There are {} artists".format(len(artists)))
+
+	create_checkfile(artists)
