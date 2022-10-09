@@ -91,3 +91,20 @@ class Artist:
 			(although this is yet to be implemented)
 		"""
 		self.albums.append(album)
+
+
+# Create a function to load the data
+def load_data():
+	new_artist = None
+	new_album = None
+	artist_list = []
+	with open("albums.txt", "r") as albums:
+		for line in albums:
+			# data row should consist of (artist, album, year, song)
+			artist_field, album_field, year_field, song_field = tuple(line.strip("\n").split("\t"))
+			year_field = int(year_field)
+			print(artist_field, album_field, year_field, song_field)
+
+
+if __name__ == '__main__':
+	load_data()
