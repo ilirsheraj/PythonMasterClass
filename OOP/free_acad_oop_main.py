@@ -39,12 +39,49 @@ class Item:
 				quantity=float(item.get('quantity'))
 			)
 
+	@staticmethod
+	def is_integer(num):
+		# We will count out the floats that are .0
+		# For example, 5.0, 10.0
+		if isinstance(num, float):
+			# Count out the floats that are .0
+			return num.is_integer()
+		elif isinstance(num, int):
+			return True
+		else:
+			return False
+
 	def __repr__(self):
-		return f"Item('{self.name}', {self.price}, {self.quantity})"
+		return f"{self.__class__.__name__}('{self.name}', {self.price}, {self.quantity})"
 
 
-Item.instantiate_from_csv()
+# Create a class that will inherit from Item
+class Phone(Item):
+
+	def __init__(self, name: str, price: float, quantity=0, broken_phones=0):
+		# call the superfunction to have access to all attributes
+		super().__init__(
+			name, price, quantity
+		)
+
+		# Run validations to the received arguments and print a message when conditions are not fulfilled
+		assert broken_phones >= 0, f"Quantity {broken_phones} is not greater than or equal to zero"
+		self.broken_phones = broken_phones
+
+
+phone1 = Phone("jscPhonev10", 500, 5, 1)
 print(Item.all)
+print(Phone.all)
+
+
+
+# print(phone1.calculate_total_prince())
+# phone2 = Phone("jscPhonev20", 700, 5, 1)
+# # phone2.broken_phones = 1
+#
+# # print(Item.all)
+#
+# print(Item.is_integer(7.0))
 
 
 
