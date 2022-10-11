@@ -9,3 +9,10 @@ class Person:
 
 florist = Person("Jane", "Flowers")
 florist.print_name()
+
+class Lawyers(Person):
+	# Instantiate the child class
+	pass
+
+happy_lawyers = Lawyers("Jack", "Smiley")
+happy_lawyers.print_name()
