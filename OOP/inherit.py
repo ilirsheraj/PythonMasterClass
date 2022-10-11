@@ -13,17 +13,22 @@ class Lawyers(Person):
 	and it uses it's own method and attributes
 	"""
 
-	def __init__(self, fname, lname):
+	def __init__(self, fname, lname, casetype):
 		Person.__init__(self, fname, lname)
+		"""
+		Add an attribute specific to child class 
+		"""
+		self.casetype = casetype
 		# self.firstname = fname
 		# self.lastname = lname
 
 	def printinfo(self):
-		print(self.firstname, self.lastname)
+		print("Hello, my name is ", self.firstname, self.lastname)
 
 
 florist = Person("Jane", "Flowers")
 florist.print_name()
-happy_lawyers = Lawyers("Jack", "Smiley")
+happy_lawyers = Lawyers("Jack", "Smiley", "Criminal")
 happy_lawyers.print_name()
 happy_lawyers.printinfo()
+print(happy_lawyers.casetype)
