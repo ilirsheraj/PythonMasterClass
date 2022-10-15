@@ -27,17 +27,17 @@ class Album:
 		tracks (List[Song]): A list of songs on the album
 
 	Methods:
-		add_song: used to build a new song to the album's track list
+		add_song: used to add a new song to the album's track list
 	"""
 
 	def __init__(self, name, year, artist=None):
-		self.year = year
 		self.name = name
+		self.year = year
 		if artist is None:
 			self.artist = Artist("Various Artists")
 		else:
 			self.artist = artist
-		self.tracks = []
+		self.tracks = []  # Start with an empty list
 
 	def add_song(self, song, position=None):
 		"""
