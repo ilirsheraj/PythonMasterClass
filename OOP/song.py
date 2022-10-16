@@ -128,7 +128,7 @@ def load_data():
 	return artist_list
 
 
-# Define a function
+# Define a function called create_checkfile that will take as input the artists list
 def create_checkfile(artist_list):
 	"""
 	Create a check file from the object data for comparison with the original file
@@ -143,5 +143,6 @@ def create_checkfile(artist_list):
 if __name__ == '__main__':
 	artists = load_data()
 	print("There are {} artists".format(len(artists)))
+	print("-" * 50)
 
 	create_checkfile(artists)
