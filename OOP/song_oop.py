@@ -13,6 +13,11 @@ class Song:
 		self.artist = artist
 		self.duration = duration
 
+	def get_title(self):
+		return self.title
+
+	name = property(get_title)
+
 
 class Album:
 	"""
@@ -39,20 +44,24 @@ class Album:
 			self.artist = artist
 		self.tracks = []  # Start with an empty list
 
+
 	def add_song(self, song, position=None):
 		"""
 		Adds a song to the track list
 
 		Args:
-			song (Song): a song to add
+			song (Song): the title of a song to add.
 			position (Optional[int]): If specified, the song will be added to that position
 				in the track list - inserting it between other songs if necessary.
 				Otherwise, the song will be added to the end of the list
 		"""
-		if position is None:
-			self.tracks.append(song)
-		else:
-			self.tracks.insert(position, song)
+		song_found = find_object(song, self.tracks)
+		if song_found is None:
+			song_found = Song(song, self.artist)
+			if position is None:
+				self.tracks.append(song_found)
+			else:
+				self.tracks.insert(position, song_found)
 
 
 class Artist:
