@@ -1,4 +1,4 @@
-1000 Maniacs	1000 Maniacs	Our Time in Eden	Candy Everybody Wants
+1000 Maniacs	Our Time in Eden	1992	Candy Everybody Wants
 1000 Maniacs	Our Time in Eden	1992	Circle Dream
 1000 Maniacs	Our Time in Eden	1992	Eden
 1000 Maniacs	Our Time in Eden	1992	Few And Far Between
@@ -11,7 +11,7 @@
 1000 Maniacs	Our Time in Eden	1992	Stockton Gala Days
 1000 Maniacs	Our Time in Eden	1992	These Are Days
 1000 Maniacs	Our Time in Eden	1992	Tolerance
-10cc	10cc	The Best Of The Early Years	Rubber Bullets
+10cc	The Best Of The Early Years	2002	Rubber Bullets
 10cc	The Best Of The Early Years	2002	The Wall Street Shuffle
 10cc	The Best Of The Early Years	2002	Waterfall
 10cc	The Best Of The Early Years	2002	Headline Hustler
@@ -31,7 +31,7 @@
 10cc	The Best Of The Early Years	2002	Bee In My Bonnet
 10cc	The Best Of The Early Years	2002	4% Of Something
 10cc	The Best Of The Early Years	2002	Clockwork Creep
-AC DC	AC DC	If You Want Blood, You've Got It	Riff Raff
+AC DC	If You Want Blood, You've Got It	1978	Riff Raff
 AC DC	If You Want Blood, You've Got It	1978	Hell Ain't a Bad Place To Be
 AC DC	If You Want Blood, You've Got It	1978	Bad Boy Boogie
 AC DC	If You Want Blood, You've Got It	1978	The Jack
@@ -51,14 +51,14 @@ AC DC	For Those About To Rock (We Salute You)	1981	C.O.D.
 AC DC	For Those About To Rock (We Salute You)	1981	Breaking The Rules
 AC DC	For Those About To Rock (We Salute You)	1981	Night Of The Long Knives
 AC DC	For Those About To Rock (We Salute You)	1981	Spellbound
-Aerosmith	Aerosmith	Aerosmith	Make It
-Aerosmith	Aerosmith	Aerosmith	Somebody
-Aerosmith	Aerosmith	Aerosmith	Dream On
-Aerosmith	Aerosmith	Aerosmith	One Way Street
-Aerosmith	Aerosmith	Aerosmith	Mama Kin
-Aerosmith	Aerosmith	Aerosmith	Write Me
-Aerosmith	Aerosmith	Aerosmith	Movin' Out
-Aerosmith	Aerosmith	Aerosmith	Walkin' The Dog
+Aerosmith	Aerosmith	1973	Make It
+Aerosmith	Aerosmith	1973	Somebody
+Aerosmith	Aerosmith	1973	Dream On
+Aerosmith	Aerosmith	1973	One Way Street
+Aerosmith	Aerosmith	1973	Mama Kin
+Aerosmith	Aerosmith	1973	Write Me
+Aerosmith	Aerosmith	1973	Movin' Out
+Aerosmith	Aerosmith	1973	Walkin' The Dog
 Aerosmith	Get Your Wings	1974	Same Old Song And Dance
 Aerosmith	Get Your Wings	1974	Lord Of The Thighs
 Aerosmith	Get Your Wings	1974	Spaced
@@ -202,7 +202,7 @@ Aerosmith	Just Push Play	2001	Drop Dead Gorgeous
 Aerosmith	Just Push Play	2001	Light Inside
 Aerosmith	Just Push Play	2001	Avant Garden
 Aerosmith	Just Push Play	2001	Face
-Alice Cooper	Alice Cooper	Welcome To My Nightmare	Welcome To My Nightmare
+Alice Cooper	Welcome To My Nightmare	1975	Welcome To My Nightmare
 Alice Cooper	Welcome To My Nightmare	1975	Devil's Food
 Alice Cooper	Welcome To My Nightmare	1975	The Black Widow
 Alice Cooper	Welcome To My Nightmare	1975	Some Folks
@@ -232,7 +232,7 @@ Alice Cooper	Hell Is	2003	Cleansed by Fire
 Alice Cooper	Hell Is	2003	Fire
 Alice Cooper	Hell Is	2003	Go to Hell (live)
 Alice Cooper	Hell Is	2003	School's Out (live)
-Animals	Animals	The Most Of The Animals	House Of The Rising Sun
+Animals	The Most Of The Animals	1966	House Of The Rising Sun
 Animals	The Most Of The Animals	1966	We've Gotta Get Out Of This Place
 Animals	The Most Of The Animals	1966	Roadrunner
 Animals	The Most Of The Animals	1966	Let The Good Times Roll
@@ -248,7 +248,7 @@ Animals	The Most Of The Animals	1966	Don't Let Me Be Misunderstood
 Animals	The Most Of The Animals	1966	It's My Life
 Animals	The Most Of The Animals	1966	Club A Go Go
 Animals	The Most Of The Animals	1966	I'm Crying
-George Thorogood & The Destroyers	George Thorogood & The Destroyers	One Bourbon, One Scotch, One Beer	One Bourbon, One Scotch, One Beer
+George Thorogood & The Destroyers	One Bourbon, One Scotch, One Beer	2009	One Bourbon, One Scotch, One Beer
 George Thorogood & The Destroyers	One Bourbon, One Scotch, One Beer	2009	Move It On Over
 George Thorogood & The Destroyers	One Bourbon, One Scotch, One Beer	2009	House Of Blue Lights
 George Thorogood & The Destroyers	One Bourbon, One Scotch, One Beer	2009	The Sky Is Crying
@@ -283,7 +283,7 @@ George Thorogood & The Destroyers	The Baddest Of George Thorogood & The Destroye
 George Thorogood & The Destroyers	The Baddest Of George Thorogood & The Destroyers	1992	Treat Her Right
 George Thorogood & The Destroyers	The Baddest Of George Thorogood & The Destroyers	1992	Long Gone
 George Thorogood & The Destroyers	The Baddest Of George Thorogood & The Destroyers	1992	Louie To Frisco
-Hayseed Dixie	Hayseed Dixie	Weapons Of Grass Destruction	Holidays In The Sun
+Hayseed Dixie	Weapons Of Grass Destruction	2007	Holidays In The Sun
 Hayseed Dixie	Weapons Of Grass Destruction	2007	Devil Woman
 Hayseed Dixie	Weapons Of Grass Destruction	2007	I Don't Feel Like Dancin'
 Hayseed Dixie	Weapons Of Grass Destruction	2007	She Was Skinny When I Met Her
@@ -298,7 +298,7 @@ Hayseed Dixie	Weapons Of Grass Destruction	2007	Hungover Brokedown
 Hayseed Dixie	Weapons Of Grass Destruction	2007	Poison
 Hayseed Dixie	Weapons Of Grass Destruction	2007	The Rider Song
 Hayseed Dixie	Weapons Of Grass Destruction	2007	Bonus Track
-Heart	Heart	Dreamboat Annie	Magic Man
+Heart	Dreamboat Annie	1976	Magic Man
 Heart	Dreamboat Annie	1976	Dreamboat Annie (Fantasy Child)
 Heart	Dreamboat Annie	1976	Crazy On You
 Heart	Dreamboat Annie	1976	Soul Of The Sea
@@ -331,7 +331,7 @@ Heart	Dog & Butterfly	1978	Mistral Wind
 Heart	Dog & Butterfly	1978	Heartless
 Heart	Dog & Butterfly	1978	Feels
 Heart	Dog & Butterfly	1978	A Little Bit
-Heaven & Hell	Heaven & Hell	The Devil You Know	Atom And Evil
+Heaven & Hell	The Devil You Know	2009	Atom And Evil
 Heaven & Hell	The Devil You Know	2009	Fear
 Heaven & Hell	The Devil You Know	2009	Bible Black
 Heaven & Hell	The Devil You Know	2009	Double The Pain
@@ -341,7 +341,7 @@ Heaven & Hell	The Devil You Know	2009	Eating The Cannibals
 Heaven & Hell	The Devil You Know	2009	Follow The Tears
 Heaven & Hell	The Devil You Know	2009	Neverwhere
 Heaven & Hell	The Devil You Know	2009	Breaking Into Heaven
-John Lee Hooker	John Lee Hooker	Boogie Man - The Blues Collection 1	Boom Boom
+John Lee Hooker	Boogie Man - The Blues Collection 1	1993	Boom Boom
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	Crawlin' King Snake
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	Boogie Chillun
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	I'm In The Mood
@@ -359,7 +359,7 @@ John Lee Hooker	Boogie Man - The Blues Collection 1	1993	This Is Hip
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	Goin' Mad Blues
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	Wandering Blues
 John Lee Hooker	Boogie Man - The Blues Collection 1	1993	House Rent Boogie
-Treatment	Treatment	Running With The Dogs	I Bleed Rock + Roll
+Treatment	Running With The Dogs	2014	I Bleed Rock + Roll
 Treatment	Running With The Dogs	2014	Drop Like A Stone
 Treatment	Running With The Dogs	2014	Get The Party On
 Treatment	Running With The Dogs	2014	Running With The Dogs
@@ -378,7 +378,7 @@ Treatment	Running With The Dogs	2014	No Matter What
 Treatment	Running With The Dogs	2014	In My Chair
 Treatment	Running With The Dogs	2014	Running With The Dogs (Acoustic)
 Treatment	Running With The Dogs	2014	I Bleed Rock + Roll (Acoustic)
-T.Rex	T.Rex	The Very Best Of Marc Bolan And T. Rex	Telegram Sam
+T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Telegram Sam
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Metal Guru
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Children Of The Revolution
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Solid Gold, Easy Action
@@ -398,220 +398,23 @@ T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	All Alone
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Celebrate Summer
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Buick MacKane
 T.Rex	The Very Best Of Marc Bolan And T. Rex	1991	Chariot Choogle
-Troggs	Troggs	Athens Andover	Crazy Annie
-Troggs	Athens Andover	1992	Together
-Troggs	Athens Andover	1992	Tuned Into Love
-Troggs	Athens Andover	1992	Deja Vu
-Troggs	Athens Andover	1992	Nowhere Road
-Troggs	Athens Andover	1992	Dust Bowl
-Troggs	Athens Andover	1992	I'm In Control
-Troggs	Athens Andover	1992	Don't You Know
-Troggs	Athens Andover	1992	What's Your Game
-Troggs	Athens Andover	1992	Suspicious
-Troggs	Athens Andover	1992	Hot Stuff
-Troggs	Wild Thing - The Greatest Hits	1993	Wild Thing
-Troggs	Wild Thing - The Greatest Hits	1993	I Can Only Give You Everything
-Troggs	Wild Thing - The Greatest Hits	1993	With A Girl Like You
-Troggs	Wild Thing - The Greatest Hits	1993	From Home
-Troggs	Wild Thing - The Greatest Hits	1993	Love Is All Around
-Troggs	Wild Thing - The Greatest Hits	1993	Night Of The Long Grass
-Troggs	Wild Thing - The Greatest Hits	1993	Cousin Jane
-Troggs	Wild Thing - The Greatest Hits	1993	I Can't Control Myself
-Troggs	Wild Thing - The Greatest Hits	1993	Give It To Me
-Troggs	Wild Thing - The Greatest Hits	1993	You Can Cry If You Want To
-Troggs	Wild Thing - The Greatest Hits	1993	Little Girl
-Troggs	Wild Thing - The Greatest Hits	1993	Lover
-Troggs	Wild Thing - The Greatest Hits	1993	Come Now
-Troggs	Wild Thing - The Greatest Hits	1993	Anyway That You Want Me
-U2	U2	18 Singles	I Will Follow
-U2	18 Singles	2006	Beautiful Day
-U2	18 Singles	2006	I Still Haven't Found What I'm Looking For
-U2	18 Singles	2006	Pride (In The Name Of Love)
-U2	18 Singles	2006	With Or Without You
-U2	18 Singles	2006	Vertigo
-U2	18 Singles	2006	New Year's Day
-U2	18 Singles	2006	Mysterious Ways
-U2	18 Singles	2006	Stuck In A Moment You Can't Get Out Of
-U2	18 Singles	2006	Where The Streets Have No Name
-U2	18 Singles	2006	Sweetest Thing
-U2	18 Singles	2006	Sunday Bloody Sunday
-U2	18 Singles	2006	One
-U2	18 Singles	2006	Desire
-U2	18 Singles	2006	Walk On
-U2	18 Singles	2006	Elevation
-U2	18 Singles	2006	Sometimes You Can't Make It On Your Own
-U2	18 Singles	2006	The Saints Are Coming
-U2	18 Singles	2006	Window In The Skies
-UFO	UFO	Phenomenon	Oh My
-UFO	Phenomenon	1999	Crystal Light
-UFO	Phenomenon	1999	Doctor Doctor
-UFO	Phenomenon	1999	Space Child
-UFO	Phenomenon	1999	Rock Bottom
-UFO	Phenomenon	1999	Too Young To Know
-UFO	Phenomenon	1999	Time On My Hands
-UFO	Phenomenon	1999	Built For Comfort
-UFO	Phenomenon	1999	Lipstick Traces
-UFO	Phenomenon	1999	Queen Of The Deep
-Uriah Heep	Uriah Heep	Demons And Wizards	The Wizard
-Uriah Heep	Demons And Wizards	1972	Traveller In Time
-Uriah Heep	Demons And Wizards	1972	Easy Livin'
-Uriah Heep	Demons And Wizards	1972	Poet's Justice
-Uriah Heep	Demons And Wizards	1972	Circle Of Hands
-Uriah Heep	Demons And Wizards	1972	Rainbow Demon
-Uriah Heep	Demons And Wizards	1972	All My Life
-Uriah Heep	Demons And Wizards	1972	Paradise
-Uriah Heep	Demons And Wizards	1972	The Spell
-Uriah Heep	The Magician's Birthday	1972	Sunrise
-Uriah Heep	The Magician's Birthday	1972	Spider Woman
-Uriah Heep	The Magician's Birthday	1972	Blind Eye
-Uriah Heep	The Magician's Birthday	1972	Echoes In The Dark
-Uriah Heep	The Magician's Birthday	1972	Rain
-Uriah Heep	The Magician's Birthday	1972	Sweet Lorraine
-Uriah Heep	The Magician's Birthday	1972	Tales
-Uriah Heep	The Magician's Birthday	1972	The Magician's Birthday
-Uriah Heep	Uriah Heep Live	1986	Easy Livin'
-Uriah Heep	Uriah Heep Live	1986	So Tired
-Uriah Heep	Uriah Heep Live	1986	I Won't Mind
-Uriah Heep	Uriah Heep Live	1986	Something Or Nothing
-Uriah Heep	Uriah Heep Live	1986	Stealin'
-Uriah Heep	Uriah Heep Live	1986	Love Machine
-Uriah Heep	Uriah Heep Live	1986	The Easy Road
-Uriah Heep	Uriah Heep Live	1986	Rock 'n' Roll Meddley
-Vangelis	Vangelis	Albedo 0.39	Pulstar
-Vangelis	Albedo 0.39	1976	Freefall
-Vangelis	Albedo 0.39	1976	Mare Tranquillitatis
-Vangelis	Albedo 0.39	1976	Main Sequence
-Vangelis	Albedo 0.39	1976	Sword Of Orion
-Vangelis	Albedo 0.39	1976	Alpha
-Vangelis	Albedo 0.39	1976	Nucleogenesis (Part One)
-Vangelis	Albedo 0.39	1976	Nucleogenesis (Part Two)
-Vangelis	Albedo 0.39	1976	Albedo 0.39
-Van Halen	Van Halen	Van Halen	Runnin' With the Devil
-Van Halen	Van Halen	Van Halen	Eruption
-Van Halen	Van Halen	Van Halen	You Really Got Me
-Van Halen	Van Halen	Van Halen	Ain't Talkin' 'Bout Love
-Van Halen	Van Halen	Van Halen	I'm the One
-Van Halen	Van Halen	Van Halen	Jamie's Cryin'
-Van Halen	Van Halen	Van Halen	Atomic Punk
-Van Halen	Van Halen	Van Halen	Feel Your Love Tonight
-Van Halen	Van Halen	Van Halen	Little Dreamer
-Van Halen	Van Halen	Van Halen	Ice Cream Man
-Van Halen	Van Halen	Van Halen	On Fire
-Van Halen	1984	1984	1984
-Van Halen	1984	1984	Jump
-Van Halen	1984	1984	Panama
-Van Halen	1984	1984	Top Jimmy
-Van Halen	1984	1984	Drop dead legs
-Van Halen	1984	1984	Hot for teacher
-Van Halen	1984	1984	I'll wait
-Van Halen	1984	1984	Girl gone bad
-Van Halen	1984	1984	House of pain
-Velvet Revolver	Velvet Revolver	Libertad	Let It Roll
-Velvet Revolver	Libertad	2007	She Mine
-Velvet Revolver	Libertad	2007	Get Out the Door
-Velvet Revolver	Libertad	2007	She Builds Quick Machines
-Velvet Revolver	Libertad	2007	The Last Fight
-Velvet Revolver	Libertad	2007	Pills, Demons & Etc.
-Velvet Revolver	Libertad	2007	American Man
-Velvet Revolver	Libertad	2007	Mary Mary
-Velvet Revolver	Libertad	2007	Just Sixteen
-Velvet Revolver	Libertad	2007	Can't Get It Out of My Head
-Velvet Revolver	Libertad	2007	For a Brother
-Velvet Revolver	Libertad	2007	Spay
-Velvet Revolver	Libertad	2007	Gravedancer
-Velvet Underground	Velvet Underground	The Velvet Underground & Nico	Sunday morning
-Velvet Underground	The Velvet Underground & Nico	1967	I'm waiting for the man
-Velvet Underground	The Velvet Underground & Nico	1967	Femme fatale
-Velvet Underground	The Velvet Underground & Nico	1967	Venus in furs
-Velvet Underground	The Velvet Underground & Nico	1967	Run run run
-Velvet Underground	The Velvet Underground & Nico	1967	All tomorrow's parties
-Velvet Underground	The Velvet Underground & Nico	1967	Heroin
-Velvet Underground	The Velvet Underground & Nico	1967	There she goes again
-Velvet Underground	The Velvet Underground & Nico	1967	I'll be your mirror
-Velvet Underground	The Velvet Underground & Nico	1967	The black angel's death song
-Velvet Underground	The Velvet Underground & Nico	1967	European son
-Vladimir Vysotsky	Vladimir Vysotsky	Izbrannoye	Koni priveredlivye
-Warner E Hodges	Warner E Hodges	Gunslinger	Ain't That Far Away
-Warner E Hodges	Gunslinger	2014	Gunslinger
-Warner E Hodges	Gunslinger	2014	Money, Mississippi
-Warner E Hodges	Gunslinger	2014	Back in Town
-Warner E Hodges	Gunslinger	2014	Messwitmycranium
-Warner E Hodges	Gunslinger	2014	You Don't Owe Me
-Warner E Hodges	Gunslinger	2014	Backwater Girl
-Warner E Hodges	Gunslinger	2014	The Hard Way
-Warner E Hodges	Gunslinger	2014	Hell and Back
-Warner E Hodges	Gunslinger	2014	Homage
-White Zombie	White Zombie	Astro-Creep	Electric Head, Pt. 1 (The Agony)
-White Zombie	Astro-Creep	2000	Super-Charger Heaven
-White Zombie	Astro-Creep	2000	Real Solution #9
-White Zombie	Astro-Creep	2000	Creature Of The Wheel
-White Zombie	Astro-Creep	2000	Electric Head, Pt. 2 (The Ecstasy)
-White Zombie	Astro-Creep	2000	Grease Paint And Monkey Brains
-White Zombie	Astro-Creep	2000	I, Zombie
-White Zombie	Astro-Creep	2000	More Human Than Human
-White Zombie	Astro-Creep	2000	El Phantasmo And The Chicken-Run Blast-O-Rama
-White Zombie	Astro-Creep	2000	Blur The Technicolor
-White Zombie	Astro-Creep	2000	Blood, Milk And Sky
-Wishbone Ash	Wishbone Ash	Argus	Time Was
-Wishbone Ash	Argus	1972	Sometime World
-Wishbone Ash	Argus	1972	Blowin' Free
-Wishbone Ash	Argus	1972	The King Will Come
-Wishbone Ash	Argus	1972	Leaf And Stream
-Wishbone Ash	Argus	1972	Warrior
-Wishbone Ash	Argus	1972	Throw Down The Sword
-Wishbone Ash	Argus	1972	Jail Bait (Live from Memphis 21-08-1972)
-Wishbone Ash	Argus	1972	The Pilgrim (Live from Memphis 21-08-1972)
-Wishbone Ash	Argus	1972	Phoenix (Live from Memphis 21-08-1972)
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	The King Will Come
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Strange Affair
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Standing In The Rain
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Lost Cause In Paradise
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Keeper Of The Light
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Throw Down The Sword
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	In The Skin
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Why Don't We
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Hard Times
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Blowing Free
-Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Living Proof
-Wishbone Ash	Wishbone Four	1973	So Many Things To Say
-Wishbone Ash	Wishbone Four	1973	Ballad of The Beacon
-Wishbone Ash	Wishbone Four	1973	No Easy Road
-Wishbone Ash	Wishbone Four	1973	Everybody Needs a Friend
-Wishbone Ash	Wishbone Four	1973	Doctor
-Wishbone Ash	Wishbone Four	1973	Sorrel
-Wishbone Ash	Wishbone Four	1973	Sing Out the Song
-Wishbone Ash	Wishbone Four	1973	Rock 'n Roll Widow
-Yardbirds	Yardbirds	The Very Best of the Yardbirds	For Your Love
-Yardbirds	The Very Best of the Yardbirds	1991	Heart Full of Soul
-Yardbirds	The Very Best of the Yardbirds	1991	Good Morning Little Schoolgirl
-Yardbirds	The Very Best of the Yardbirds	1991	Still I'm Sad
-Yardbirds	The Very Best of the Yardbirds	1991	Evil Hearted You
-Yardbirds	The Very Best of the Yardbirds	1991	A Certain Girl
-Yardbirds	The Very Best of the Yardbirds	1991	Jeff's Blues
-Yardbirds	The Very Best of the Yardbirds	1991	I Wish You Would
-Yardbirds	The Very Best of the Yardbirds	1991	New York City
-Yardbirds	The Very Best of the Yardbirds	1991	I'm not Talking
-Yardbirds	The Very Best of the Yardbirds	1991	You're a Better Man Than I
-Yardbirds	The Very Best of the Yardbirds	1991	Shapes of Things
-Yardbirds	The Very Best of the Yardbirds	1991	I'm a Man
-Yardbirds	The Very Best of the Yardbirds	1991	Boom Boom
-Yardbirds	The Very Best of the Yardbirds	1991	Smokestack Lightning (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	Let it Rock (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	You Can't Judge a Book by its Cover
-Yardbirds	The Very Best of the Yardbirds	1991	Who Do You Love (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	Too Much Monkey Business (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	Respectable (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	Pretty Girl (Live)
-Yardbirds	The Very Best of the Yardbirds	1991	Stroll On
-Yngwie Malmsteen	Yngwie Malmsteen	Rising Force	Black Star
-Yngwie Malmsteen	Rising Force	1984	Far Beyond The Sun
-Yngwie Malmsteen	Rising Force	1984	Now Your Ships Are Burned
-Yngwie Malmsteen	Rising Force	1984	Evil Eye
-Yngwie Malmsteen	Rising Force	1984	Icarus Dream Suite Opus 4
-Yngwie Malmsteen	Rising Force	1984	As Above So Below
-Yngwie Malmsteen	Rising Force	1984	Little Savage
-Yngwie Malmsteen	Rising Force	1984	Farewell
-ZZ Top	ZZ Top	Rio Grande Mud	Francine
+ZZ Top	Mescalero	2003	Mescalero
+ZZ Top	Mescalero	2003	Two Ways To Play
+ZZ Top	Mescalero	2003	Alley-gator
+ZZ Top	Mescalero	2003	Buck Nekkid
+ZZ Top	Mescalero	2003	Goin' So Good
+ZZ Top	Mescalero	2003	Me So Stupid
+ZZ Top	Mescalero	2003	Piece
+ZZ Top	Mescalero	2003	Punk Ass Boyfriend
+ZZ Top	Mescalero	2003	Stackin' Paper
+ZZ Top	Mescalero	2003	What Would You Do
+ZZ Top	Mescalero	2003	What It Is Kid
+ZZ Top	Mescalero	2003	Que Lastima
+ZZ Top	Mescalero	2003	Tramp
+ZZ Top	Mescalero	2003	Crunchy
+ZZ Top	Mescalero	2003	Dusted
+ZZ Top	Mescalero	2003	Liquor
+ZZ Top	Rio Grande Mud	1972	Francine
 ZZ Top	Rio Grande Mud	1972	Just Got Paid
 ZZ Top	Rio Grande Mud	1972	Mushmouth Shoutin
 ZZ Top	Rio Grande Mud	1972	Ko Ko Blue
@@ -666,19 +469,216 @@ ZZ Top	Antenna	1994	Cover Your Rig
 ZZ Top	Antenna	1994	Lizard Life
 ZZ Top	Antenna	1994	Deal Goin' Down
 ZZ Top	Antenna	1994	Everything
-ZZ Top	Mescalero	2003	Mescalero
-ZZ Top	Mescalero	2003	Two Ways To Play
-ZZ Top	Mescalero	2003	Alley-gator
-ZZ Top	Mescalero	2003	Buck Nekkid
-ZZ Top	Mescalero	2003	Goin' So Good
-ZZ Top	Mescalero	2003	Me So Stupid
-ZZ Top	Mescalero	2003	Piece
-ZZ Top	Mescalero	2003	Punk Ass Boyfriend
-ZZ Top	Mescalero	2003	Stackin' Paper
-ZZ Top	Mescalero	2003	What Would You Do
-ZZ Top	Mescalero	2003	What It Is Kid
-ZZ Top	Mescalero	2003	Que Lastima
-ZZ Top	Mescalero	2003	Tramp
-ZZ Top	Mescalero	2003	Crunchy
-ZZ Top	Mescalero	2003	Dusted
-ZZ Top	Mescalero	2003	Liquor
+Troggs	Athens Andover	1992	Crazy Annie
+Troggs	Athens Andover	1992	Together
+Troggs	Athens Andover	1992	Tuned Into Love
+Troggs	Athens Andover	1992	Deja Vu
+Troggs	Athens Andover	1992	Nowhere Road
+Troggs	Athens Andover	1992	Dust Bowl
+Troggs	Athens Andover	1992	I'm In Control
+Troggs	Athens Andover	1992	Don't You Know
+Troggs	Athens Andover	1992	What's Your Game
+Troggs	Athens Andover	1992	Suspicious
+Troggs	Athens Andover	1992	Hot Stuff
+Troggs	Wild Thing - The Greatest Hits	1993	Wild Thing
+Troggs	Wild Thing - The Greatest Hits	1993	I Can Only Give You Everything
+Troggs	Wild Thing - The Greatest Hits	1993	With A Girl Like You
+Troggs	Wild Thing - The Greatest Hits	1993	From Home
+Troggs	Wild Thing - The Greatest Hits	1993	Love Is All Around
+Troggs	Wild Thing - The Greatest Hits	1993	Night Of The Long Grass
+Troggs	Wild Thing - The Greatest Hits	1993	Cousin Jane
+Troggs	Wild Thing - The Greatest Hits	1993	I Can't Control Myself
+Troggs	Wild Thing - The Greatest Hits	1993	Give It To Me
+Troggs	Wild Thing - The Greatest Hits	1993	You Can Cry If You Want To
+Troggs	Wild Thing - The Greatest Hits	1993	Little Girl
+Troggs	Wild Thing - The Greatest Hits	1993	Lover
+Troggs	Wild Thing - The Greatest Hits	1993	Come Now
+Troggs	Wild Thing - The Greatest Hits	1993	Anyway That You Want Me
+U2	18 Singles	2006	I Will Follow
+U2	18 Singles	2006	Beautiful Day
+U2	18 Singles	2006	I Still Haven't Found What I'm Looking For
+U2	18 Singles	2006	Pride (In The Name Of Love)
+U2	18 Singles	2006	With Or Without You
+U2	18 Singles	2006	Vertigo
+U2	18 Singles	2006	New Year's Day
+U2	18 Singles	2006	Mysterious Ways
+U2	18 Singles	2006	Stuck In A Moment You Can't Get Out Of
+U2	18 Singles	2006	Where The Streets Have No Name
+U2	18 Singles	2006	Sweetest Thing
+U2	18 Singles	2006	Sunday Bloody Sunday
+U2	18 Singles	2006	One
+U2	18 Singles	2006	Desire
+U2	18 Singles	2006	Walk On
+U2	18 Singles	2006	Elevation
+U2	18 Singles	2006	Sometimes You Can't Make It On Your Own
+U2	18 Singles	2006	The Saints Are Coming
+U2	18 Singles	2006	Window In The Skies
+UFO	Phenomenon	1999	Oh My
+UFO	Phenomenon	1999	Crystal Light
+UFO	Phenomenon	1999	Doctor Doctor
+UFO	Phenomenon	1999	Space Child
+UFO	Phenomenon	1999	Rock Bottom
+UFO	Phenomenon	1999	Too Young To Know
+UFO	Phenomenon	1999	Time On My Hands
+UFO	Phenomenon	1999	Built For Comfort
+UFO	Phenomenon	1999	Lipstick Traces
+UFO	Phenomenon	1999	Queen Of The Deep
+Uriah Heep	Demons And Wizards	1972	The Wizard
+Uriah Heep	Demons And Wizards	1972	Traveller In Time
+Uriah Heep	Demons And Wizards	1972	Easy Livin'
+Uriah Heep	Demons And Wizards	1972	Poet's Justice
+Uriah Heep	Demons And Wizards	1972	Circle Of Hands
+Uriah Heep	Demons And Wizards	1972	Rainbow Demon
+Uriah Heep	Demons And Wizards	1972	All My Life
+Uriah Heep	Demons And Wizards	1972	Paradise
+Uriah Heep	Demons And Wizards	1972	The Spell
+Uriah Heep	The Magician's Birthday	1972	Sunrise
+Uriah Heep	The Magician's Birthday	1972	Spider Woman
+Uriah Heep	The Magician's Birthday	1972	Blind Eye
+Uriah Heep	The Magician's Birthday	1972	Echoes In The Dark
+Uriah Heep	The Magician's Birthday	1972	Rain
+Uriah Heep	The Magician's Birthday	1972	Sweet Lorraine
+Uriah Heep	The Magician's Birthday	1972	Tales
+Uriah Heep	The Magician's Birthday	1972	The Magician's Birthday
+Uriah Heep	Uriah Heep Live	1986	Easy Livin'
+Uriah Heep	Uriah Heep Live	1986	So Tired
+Uriah Heep	Uriah Heep Live	1986	I Won't Mind
+Uriah Heep	Uriah Heep Live	1986	Something Or Nothing
+Uriah Heep	Uriah Heep Live	1986	Stealin'
+Uriah Heep	Uriah Heep Live	1986	Love Machine
+Uriah Heep	Uriah Heep Live	1986	The Easy Road
+Uriah Heep	Uriah Heep Live	1986	Rock 'n' Roll Meddley
+Vangelis	Albedo 0.39	1976	Pulstar
+Vangelis	Albedo 0.39	1976	Freefall
+Vangelis	Albedo 0.39	1976	Mare Tranquillitatis
+Vangelis	Albedo 0.39	1976	Main Sequence
+Vangelis	Albedo 0.39	1976	Sword Of Orion
+Vangelis	Albedo 0.39	1976	Alpha
+Vangelis	Albedo 0.39	1976	Nucleogenesis (Part One)
+Vangelis	Albedo 0.39	1976	Nucleogenesis (Part Two)
+Vangelis	Albedo 0.39	1976	Albedo 0.39
+Van Halen	Van Halen	1978	Runnin' With the Devil
+Van Halen	Van Halen	1978	Eruption
+Van Halen	Van Halen	1978	You Really Got Me
+Van Halen	Van Halen	1978	Ain't Talkin' 'Bout Love
+Van Halen	Van Halen	1978	I'm the One
+Van Halen	Van Halen	1978	Jamie's Cryin'
+Van Halen	Van Halen	1978	Atomic Punk
+Van Halen	Van Halen	1978	Feel Your Love Tonight
+Van Halen	Van Halen	1978	Little Dreamer
+Van Halen	Van Halen	1978	Ice Cream Man
+Van Halen	Van Halen	1978	On Fire
+Van Halen	1984	1984	1984
+Van Halen	1984	1984	Jump
+Van Halen	1984	1984	Panama
+Van Halen	1984	1984	Top Jimmy
+Van Halen	1984	1984	Drop dead legs
+Van Halen	1984	1984	Hot for teacher
+Van Halen	1984	1984	I'll wait
+Van Halen	1984	1984	Girl gone bad
+Van Halen	1984	1984	House of pain
+Velvet Revolver	Libertad	2007	Let It Roll
+Velvet Revolver	Libertad	2007	She Mine
+Velvet Revolver	Libertad	2007	Get Out the Door
+Velvet Revolver	Libertad	2007	She Builds Quick Machines
+Velvet Revolver	Libertad	2007	The Last Fight
+Velvet Revolver	Libertad	2007	Pills, Demons & Etc.
+Velvet Revolver	Libertad	2007	American Man
+Velvet Revolver	Libertad	2007	Mary Mary
+Velvet Revolver	Libertad	2007	Just Sixteen
+Velvet Revolver	Libertad	2007	Can't Get It Out of My Head
+Velvet Revolver	Libertad	2007	For a Brother
+Velvet Revolver	Libertad	2007	Spay
+Velvet Revolver	Libertad	2007	Gravedancer
+Velvet Underground	The Velvet Underground & Nico	1967	Sunday morning
+Velvet Underground	The Velvet Underground & Nico	1967	I'm waiting for the man
+Velvet Underground	The Velvet Underground & Nico	1967	Femme fatale
+Velvet Underground	The Velvet Underground & Nico	1967	Venus in furs
+Velvet Underground	The Velvet Underground & Nico	1967	Run run run
+Velvet Underground	The Velvet Underground & Nico	1967	All tomorrow's parties
+Velvet Underground	The Velvet Underground & Nico	1967	Heroin
+Velvet Underground	The Velvet Underground & Nico	1967	There she goes again
+Velvet Underground	The Velvet Underground & Nico	1967	I'll be your mirror
+Velvet Underground	The Velvet Underground & Nico	1967	The black angel's death song
+Velvet Underground	The Velvet Underground & Nico	1967	European son
+Vladimir Vysotsky	Izbrannoye	2011	Koni priveredlivye
+Warner E Hodges	Gunslinger	2014	Ain't That Far Away
+Warner E Hodges	Gunslinger	2014	Gunslinger
+Warner E Hodges	Gunslinger	2014	Money, Mississippi
+Warner E Hodges	Gunslinger	2014	Back in Town
+Warner E Hodges	Gunslinger	2014	Messwitmycranium
+Warner E Hodges	Gunslinger	2014	You Don't Owe Me
+Warner E Hodges	Gunslinger	2014	Backwater Girl
+Warner E Hodges	Gunslinger	2014	The Hard Way
+Warner E Hodges	Gunslinger	2014	Hell and Back
+Warner E Hodges	Gunslinger	2014	Homage
+White Zombie	Astro-Creep	2000	Electric Head, Pt. 1 (The Agony)
+White Zombie	Astro-Creep	2000	Super-Charger Heaven
+White Zombie	Astro-Creep	2000	Real Solution #9
+White Zombie	Astro-Creep	2000	Creature Of The Wheel
+White Zombie	Astro-Creep	2000	Electric Head, Pt. 2 (The Ecstasy)
+White Zombie	Astro-Creep	2000	Grease Paint And Monkey Brains
+White Zombie	Astro-Creep	2000	I, Zombie
+White Zombie	Astro-Creep	2000	More Human Than Human
+White Zombie	Astro-Creep	2000	El Phantasmo And The Chicken-Run Blast-O-Rama
+White Zombie	Astro-Creep	2000	Blur The Technicolor
+White Zombie	Astro-Creep	2000	Blood, Milk And Sky
+Wishbone Ash	Argus	1972	Time Was
+Wishbone Ash	Argus	1972	Sometime World
+Wishbone Ash	Argus	1972	Blowin' Free
+Wishbone Ash	Argus	1972	The King Will Come
+Wishbone Ash	Argus	1972	Leaf And Stream
+Wishbone Ash	Argus	1972	Warrior
+Wishbone Ash	Argus	1972	Throw Down The Sword
+Wishbone Ash	Argus	1972	Jail Bait (Live from Memphis 21-08-1972)
+Wishbone Ash	Argus	1972	The Pilgrim (Live from Memphis 21-08-1972)
+Wishbone Ash	Argus	1972	Phoenix (Live from Memphis 21-08-1972)
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	The King Will Come
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Strange Affair
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Standing In The Rain
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Lost Cause In Paradise
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Keeper Of The Light
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Throw Down The Sword
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	In The Skin
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Why Don't We
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Hard Times
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Blowing Free
+Wishbone Ash	Keeper Of The Light [Live In Chicago]	1992	Living Proof
+Wishbone Ash	Wishbone Four	1973	So Many Things To Say
+Wishbone Ash	Wishbone Four	1973	Ballad of The Beacon
+Wishbone Ash	Wishbone Four	1973	No Easy Road
+Wishbone Ash	Wishbone Four	1973	Everybody Needs a Friend
+Wishbone Ash	Wishbone Four	1973	Doctor
+Wishbone Ash	Wishbone Four	1973	Sorrel
+Wishbone Ash	Wishbone Four	1973	Sing Out the Song
+Wishbone Ash	Wishbone Four	1973	Rock 'n Roll Widow
+Yardbirds	The Very Best of the Yardbirds	1991	For Your Love
+Yardbirds	The Very Best of the Yardbirds	1991	Heart Full of Soul
+Yardbirds	The Very Best of the Yardbirds	1991	Good Morning Little Schoolgirl
+Yardbirds	The Very Best of the Yardbirds	1991	Still I'm Sad
+Yardbirds	The Very Best of the Yardbirds	1991	Evil Hearted You
+Yardbirds	The Very Best of the Yardbirds	1991	A Certain Girl
+Yardbirds	The Very Best of the Yardbirds	1991	Jeff's Blues
+Yardbirds	The Very Best of the Yardbirds	1991	I Wish You Would
+Yardbirds	The Very Best of the Yardbirds	1991	New York City
+Yardbirds	The Very Best of the Yardbirds	1991	I'm not Talking
+Yardbirds	The Very Best of the Yardbirds	1991	You're a Better Man Than I
+Yardbirds	The Very Best of the Yardbirds	1991	Shapes of Things
+Yardbirds	The Very Best of the Yardbirds	1991	I'm a Man
+Yardbirds	The Very Best of the Yardbirds	1991	Boom Boom
+Yardbirds	The Very Best of the Yardbirds	1991	Smokestack Lightning (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	Let it Rock (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	You Can't Judge a Book by its Cover
+Yardbirds	The Very Best of the Yardbirds	1991	Who Do You Love (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	Too Much Monkey Business (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	Respectable (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	Pretty Girl (Live)
+Yardbirds	The Very Best of the Yardbirds	1991	Stroll On
+Yngwie Malmsteen	Rising Force	1984	Black Star
+Yngwie Malmsteen	Rising Force	1984	Far Beyond The Sun
+Yngwie Malmsteen	Rising Force	1984	Now Your Ships Are Burned
+Yngwie Malmsteen	Rising Force	1984	Evil Eye
+Yngwie Malmsteen	Rising Force	1984	Icarus Dream Suite Opus 4
+Yngwie Malmsteen	Rising Force	1984	As Above So Below
+Yngwie Malmsteen	Rising Force	1984	Little Savage
+Yngwie Malmsteen	Rising Force	1984	Farewell
