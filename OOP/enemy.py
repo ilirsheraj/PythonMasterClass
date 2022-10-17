@@ -1,4 +1,5 @@
-class Enemy:
+# class Enemy: This is the same as the line below with object in it, no difference
+class Enemy(object):
 
 	def __init__(self, name="Enemy", hit_points=0, lives=1):
 		self.name = name
@@ -15,3 +16,8 @@ class Enemy:
 
 	def __str__(self):
 		return "Name: {0.name}, Lives: {0.lives}, Hit Points: {0.hit_points}".format(self)
+
+
+# Define a new enemy class called trolls
+class Troll(Enemy):
+	pass
