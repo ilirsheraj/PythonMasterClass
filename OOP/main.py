@@ -27,8 +27,19 @@ print()
 
 tim.lives -= 1
 print(tim)
-#
-# # Using getter conventionally
-# print(tim.get_name())
-# # Using a setter conventionally
-# tim.set_lives(300)
+print()
+
+tim.lives = 9
+print(tim)
+print("-"*50)
+
+tim.level = 2
+print(tim)
+
+tim.level += 5
+print(tim)
+
+tim.level = 3
+print(tim)
+
+
