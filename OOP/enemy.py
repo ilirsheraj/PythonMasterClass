@@ -55,3 +55,13 @@ class Vampyre(Enemy):
 	def take_damage(self, damage):
 		if not self.dodges():
 			super().take_damage(damage=damage)
+
+
+class VampyreKing(Vampyre):
+
+	def __init__(self, name):
+		super().__init__(name)
+		self.hit_points = 140
+
+	def take_damage(self, damage):
+		super().take_damage(damage//4)
