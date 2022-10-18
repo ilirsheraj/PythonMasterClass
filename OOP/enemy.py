@@ -20,4 +20,12 @@ class Enemy(object):
 
 # Define a new enemy class called trolls
 class Troll(Enemy):
-	pass
+
+	def __init__(self, name):
+		# Enemy.__init__(self, name=name, lives=1, hit_points=23)
+		# super(Troll, self).__init__(name=name, lives=1, hit_points=23)
+		# THe line above and below do the same thing, so no need to specify them
+		super().__init__(name=name, lives=1, hit_points=23)
+
+	def grunt(self):
+		print("Me {0.name}. {0.name} stomp you".format(self))
