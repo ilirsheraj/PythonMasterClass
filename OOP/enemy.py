@@ -1,3 +1,6 @@
+import random
+
+
 # class Enemy: This is the same as the line below with object in it, no difference
 class Enemy(object):
 
@@ -42,3 +45,13 @@ class Troll(Enemy):
 class Vampyre(Enemy):
 	def __init__(self, name):
 		super().__init__(name=name, lives=3, hit_points=12)
+
+	def dodges(self):
+		if random.randint(1, 3) == 3:
+			print("***** {0.name} dodges *****".format(self))
+		else:
+			return False
+
+	def take_damage(self, damage):
+		if not self.dodges():
+			super().take_damage(damage=damage)
