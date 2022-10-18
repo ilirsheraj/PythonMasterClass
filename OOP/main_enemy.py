@@ -1,4 +1,4 @@
-from enemy import Enemy, Troll
+from enemy import Enemy, Troll, Vampyre
 
 # random_monster = Enemy("Basic Enemy", 12, 1)
 # print(random_monster)
@@ -28,6 +28,8 @@ print("Ugly troll - {}".format(ugly_troll))
 
 another_troll = Troll("Ug")
 print("Another troll - {}".format(another_troll))
+another_troll.take_damage(18)
+print(another_troll)
 
 brother = Troll("Urg")
 print(brother)
@@ -40,3 +42,22 @@ brother.grunt()
 # monster = Enemy("Basic Enemy")
 # # It wont work because Enemy has no grunt method
 # monster.grunt()
+
+vampyre1 = Vampyre("Dracula")
+print(vampyre1)
+vampyre1.take_damage(3)
+print(vampyre1)
+
+vamp = Vampyre("Vlad")
+print(vamp)
+vamp.take_damage(5)
+print(vamp)
+
+print("-"*40)
+another_troll.take_damage(30)
+print(another_troll)
+print("-" * 40)
+
+while vamp.alive:
+	vamp.take_damage(1)
+	print(vamp)
