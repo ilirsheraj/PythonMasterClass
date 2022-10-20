@@ -1,5 +1,4 @@
 -- Long commands used in SQLITE3
-
 SELECT artists.name, albums.name, songs.track, songs.title FROM songs
 INNER JOIN albums ON songs.album = albums._id
 INNER JOIN artists ON albums.artist = artists._id
@@ -19,3 +18,21 @@ INNER JOIN albums ON songs.album = albums._id
 INNER JOIN artists ON albums.artist = artists._id
 WHERE songs.title LIKE "%doctor%"
 ORDER BY artists.name, albums.name, songs.track;
+
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name LIKE "%jefferson%"
+ORDER BY artists.name, albums.name, songs.track;
+
+-- View
+CREATE VIEW artist_list AS
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+ORDER BY artists.name, albums.name, songs.track;
+.schema
+SELECT FROM artist_list;
+
+
+
