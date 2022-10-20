@@ -25,10 +25,27 @@ UPDATE artists SET name = "One Kitten" WHERE artists.name = "Mehitabel";
 SELECT * FROM artists WHERE artists.name = "One Kitten";
 
 -- 6 - Select the titles of all the songs by Aerosmith in alphabetical order. Include only the title in the output
-
+SELECT title FROM artist_list 
+WHERE artist = "Aerosmith" ORDER BY title;
 
 -- 7 - Replace the column that you used in the previous answer with count(title) to get just a count of the number of songs
+SELECT COUNT(title) FROM artist_list 
+WHERE artist = "Aerosmith";
 
 -- 8 - Get songs without duplicates
+SELECT DISTINCT title FROM artist_list 
+WHERE artist = "Aerosmith" ORDER BY title;
+
+-- 9 - Get artists without duplicates
+SELECT COUNT(DISTINCT title) FROM artist_list 
+WHERE artist = "Aerosmith";
+
+-- 10 - Repeat 9 for artists
+SELECT COUNT(DISTINCT artist) FROM artist_list 
+WHERE artist = "Aerosmith";
+
+-- 10 - Repeat 9 for albums
+SELECT COUNT(DISTINCT album) FROM artist_list 
+WHERE artist = "Aerosmith";
 
 
