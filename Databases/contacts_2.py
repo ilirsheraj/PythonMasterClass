@@ -19,8 +19,9 @@ print(update_sql)
 # # To change all emails
 # update_sql = "UPDATE contacts SET email = 'update@update.com'"
 update_cursor = db.cursor()
-# update_cursor.execute(update_sql)
-update_cursor.executescript(update_sql)
+update_cursor.execute(update_sql)
+# update_cursor.executescript(update_sql)
+
 print("{} rows updated".format(update_cursor.rowcount))
 
 print()
