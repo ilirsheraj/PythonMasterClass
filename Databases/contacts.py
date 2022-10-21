@@ -15,9 +15,9 @@ cursor.execute("SELECT * FROM contacts")
 # print(cursor.fetchall())  # returns a list of tuples
 print(cursor.fetchone())  # first row
 print(cursor.fetchone())  # second row
-print(cursor.fetchone())  # None, there ar eonly two rows
+print(cursor.fetchone())  # None, there are only two rows
 
-# In this case this loop will not print anything
+# In this case this loop will not print anything because of generator
 for name, phone, email in cursor:
 	print(name)
 	print(phone)
@@ -25,7 +25,6 @@ for name, phone, email in cursor:
 	print("-" * 20)
 
 cursor.close()
+# Commit changes
+db.commit()
 db.close()
-
-
-
