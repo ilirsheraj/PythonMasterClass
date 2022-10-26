@@ -10,6 +10,7 @@ duck5 = duck.Duck()
 duck6 = duck.Duck()
 duck7 = duck.Duck()
 percy = duck.Penguin()
+# percy = duck.Mallard()
 
 flock.add_duck(donald)
 flock.add_duck(daisy)
