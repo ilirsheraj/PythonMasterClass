@@ -12,9 +12,10 @@ class Scrollbox(tkinter.Listbox):
 		self.scrollbar = tkinter.Scrollbar(window, orient=tkinter.VERTICAL, command=self.yview)
 
 	def grid(self, row, column, sticky="nsw", rowspan=1, columnspan=1, **kwargs):
-		super().grid(row=row, column=column, sticky=sticky, rowspan=rowspan, columnspan=columnspan, **kwargs)
+		super().grid(row=row, column=column, sticky=sticky, rowspan=rowspan,
+					 columnspan=columnspan, **kwargs)
 		self.scrollbar.grid(row=row, column=column, sticky="nse", rowspan=rowspan)
-		self['yscrollcommand'] = self.scrollbar
+		self['yscrollcommand'] = self.scrollbar.set
 
 
 mainWindow = tkinter.Tk()
@@ -42,6 +43,9 @@ tkinter.Label(mainWindow, text="Songs").grid(row=0, column=2)
 artistList = tkinter.Listbox(mainWindow)
 artistList.grid(row=1, column=0, sticky="nsew", rowspan=2, padx=(30,0))
 artistList.config(border=2, relief="sunken")
+
+for artist in conn.execute("SELECT artists.name FROM artists ORDER BY artists.name"):
+	artistList.insert(tkinter.END, artist[0])
 
 # artistScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=artistList.yview)
 # artistScroll.grid(row=1, column=0, sticky="nse", rowspan=2)
