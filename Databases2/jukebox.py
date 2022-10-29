@@ -23,6 +23,7 @@ class DataListBox(Scrollbox):
 
 		self.linked_box = None
 		self.linked_field = None
+		self.link_value = None
 
 		self.cursor = connection.cursor()
 		self.table = table
@@ -44,8 +45,9 @@ class DataListBox(Scrollbox):
 		widget.link_field = link_field
 
 	def requery(self, link_value=None):
-		if link_value and self.linked_field:
-			sql = self.sql_select + " WHERE " + self.linked_field + "=?" + self.sql_sort
+		self.link_value = link_value
+		if link_value and self.link_field:
+			sql = self.sql_select + " WHERE " + self.link_field + "=?" + self.sql_sort
 			print(sql)  # TODO delete this line
 			self.cursor.execute(sql, (link_value,))
 		else:
@@ -67,28 +69,16 @@ class DataListBox(Scrollbox):
 			index = self.curselection()[0]
 			value = self.get(index),  # This is a tuple
 
-			# # Get the artist ID from the database row
-			link_id = self.cursor.execute(self.sql_select + " WHERE " + self.field + "=?", value).fetchone()[1]
+			# Get the ID from the database row
+			# make sure we are getting the correct one by including link_value if appropriate
+			if self.link_value:
+				value = value[0], self.link_value
+				sql_where = " WHERE " + self.field + "=? AND " + self.link_field + "=?"
+			else:
+				sql_where = " WHERE " + self.field + "=?"
+
+			link_id = self.cursor.execute(self.sql_select + sql_where, value).fetchone()[1]
 			self.linked_box.requery(link_id)
-			# artist_id = conn.execute("SELECT artists._id FROM artists WHERE artists.name=?", artist_name).fetchone()
-			# alist = []
-			# for row in conn.execute("SELECT albums.name FROM albums WHERE albums.artist =? ORDER BY albums.name", artist_id):
-			# 	alist.append(row[0])
-			# albumLV.set(tuple(alist))
-			# songLV.set(("Chose and album",))
-
-
-# def get_songs(event):
-# 	lb = event.widget
-# 	index = int(lb.curselection()[0])
-# 	album_name = lb.get(index),
-#
-# 	# Get the artist ID from the database row
-# 	album_id = conn.execute("SELECT albums._id FROM albums WHERE albums.name=?", album_name).fetchone()
-# 	alist = []
-# 	for x in conn.execute("SELECT songs.title FROM songs WHERE songs.album=? ORDER BY songs.track", album_id):
-# 		alist.append(x[0])
-# 	songLV.set(tuple(alist))
 
 
 if __name__ == "__main__":
@@ -120,14 +110,7 @@ if __name__ == "__main__":
 	artistList.grid(row=1, column=0, sticky="nsew", rowspan=2, padx=(30,0))
 	artistList.config(border=2, relief="sunken")
 
-	# for artist in conn.execute("SELECT artists.name FROM artists ORDER BY artists.name"):
-	# 	artistList.insert(tkinter.END, artist[0])
 	artistList.requery()
-	# artistList.bind('<<ListboxSelect>>', get_albums)
-
-	# artistScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=artistList.yview)
-	# artistScroll.grid(row=1, column=0, sticky="nse", rowspan=2)
-	# artistList['yscrollcommand'] = artistScroll.set
 
 	# ==== Album Listbox ====
 	albumLV = tkinter.Variable(mainWindow)
@@ -137,12 +120,7 @@ if __name__ == "__main__":
 	albumList.grid(row=1, column=1, sticky="nsew", padx=(30,0))
 	albumList.config(border=2, relief="sunken")
 
-	# albumList.bind('<<ListboxSelect>>', get_songs)
 	artistList.link(albumList, "artist")
-
-	# albumScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=albumList.yview)
-	# albumScroll.grid(row=1, column=1, sticky="nse", rowspan=2)
-	# albumList['yscrollcommand'] = albumScroll.set
 
 	# ==== Song Listbox ====
 	songLV = tkinter.Variable(mainWindow)
@@ -154,8 +132,6 @@ if __name__ == "__main__":
 	albumList.link(songList, "album")
 
 	# ==== Main Loop ====
-	# testList = range(0, 100)
-	# albumLV.set(tuple(testList))
 	mainWindow.mainloop()
 	print("Closing the Database Connection")
 	conn.close()
