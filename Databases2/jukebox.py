@@ -4,6 +4,7 @@ import tkinter
 
 conn = sqlite3.connect("music.sqlite")
 
+
 class Scrollbox(tkinter.Listbox):
 
 	def __init__(self, window, **kwargs):
@@ -16,6 +17,34 @@ class Scrollbox(tkinter.Listbox):
 					 columnspan=columnspan, **kwargs)
 		self.scrollbar.grid(row=row, column=column, sticky="nse", rowspan=rowspan)
 		self['yscrollcommand'] = self.scrollbar.set
+
+
+class DataListBox(Scrollbox):
+
+	def __init__(self, window, connection, table, field, sort_order=(), **kwargs):
+		super().__init__(window, **kwargs)
+
+		self.cursor = connection.cursor()
+		self.table = table
+		self.field = field
+
+		self.sql_select = "SELECT " + self.field + ", _id" + " FROM " + self.table
+		if sort_order:
+			self.sql_sort = " ORDER BY " + ','.join(sort_order)
+		else:
+			self.sql_sort = " ORDER BY " + self.field
+
+	def clear(self):
+		self.delete(0, tkinter.END)
+
+	def requery(self):
+		print(self.sql_select + self.sql_sort)  # TODO delete this line
+		self.cursor.execute(self.sql_select + self.sql_sort)
+
+		# clear the listbox contents before reloading
+		self.clear()
+		for value in self.cursor:
+			self.insert(tkinter.END, value[0])
 
 
 def get_albums(event):
@@ -67,13 +96,13 @@ tkinter.Label(mainWindow, text="Albums").grid(row=0, column=1)
 tkinter.Label(mainWindow, text="Songs").grid(row=0, column=2)
 
 # ==== Artists Listbox ====
-artistList = tkinter.Listbox(mainWindow)
+artistList = DataListBox(mainWindow, conn, "artists", "name")
 artistList.grid(row=1, column=0, sticky="nsew", rowspan=2, padx=(30,0))
 artistList.config(border=2, relief="sunken")
 
-for artist in conn.execute("SELECT artists.name FROM artists ORDER BY artists.name"):
-	artistList.insert(tkinter.END, artist[0])
-
+# for artist in conn.execute("SELECT artists.name FROM artists ORDER BY artists.name"):
+# 	artistList.insert(tkinter.END, artist[0])
+artistList.requery()
 artistList.bind('<<ListboxSelect>>', get_albums)
 
 # artistScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=artistList.yview)
@@ -83,7 +112,8 @@ artistList.bind('<<ListboxSelect>>', get_albums)
 # ==== Album Listbox ====
 albumLV = tkinter.Variable(mainWindow)
 albumLV.set(("Choose an Artist",))
-albumList = Scrollbox(mainWindow, listvariable=albumLV)
+albumList = DataListBox(mainWindow, conn, "albums", "name", sort_order=("name",))
+albumList.requery()
 albumList.grid(row=1, column=1, sticky="nsew", padx=(30,0))
 albumList.config(border=2, relief="sunken")
 
@@ -96,7 +126,8 @@ albumList.bind('<<ListboxSelect>>', get_songs)
 # ==== Song Listbox ====
 songLV = tkinter.Variable(mainWindow)
 songLV.set(("Choose and Album",))
-songList = Scrollbox(mainWindow, listvariable=songLV)
+songList = DataListBox(mainWindow, conn, "songs", "title", ("track", "title"))
+songList.requery()
 songList.grid(row=1, column=2, sticky="nsew", padx=(30,0))
 songList.config(border=2, relief="sunken")
 
