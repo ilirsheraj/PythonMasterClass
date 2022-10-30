@@ -26,3 +26,7 @@ print(output)
 # type the corresponding comprehension here:
 list_tuple = [(x, len(x)) for x in text.split()]
 print(list_tuple)
+
+# List to set comprehension to avoid duplicates
+set_tuple = {(x, len(x)) for x in text.split()}
+print(set_tuple)
