@@ -7,8 +7,8 @@
  
 inch_measurement = (3, 8, 20)
  
-# cm_measurement = [inch * 2.54 for inch in inch_measurement]
-# print(cm_measurement)
+cm_measurement = [inch * 2.54 for inch in inch_measurement]
+print(cm_measurement)
  
 # Once you've got the correct values, change the code to produce a tuple, rather than a list.
 cm_measurement = tuple([inch * 2.54 for inch in inch_measurement])
