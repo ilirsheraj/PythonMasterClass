@@ -32,4 +32,18 @@ menu = [
 
 for meal in menu:
 	print(meal, "contains chicken" if "chicken" in meal else "contains beacon" if "beacon" in meal else "contains eggs")
+print()
 
+# Create a set of all items in the menu
+items = set()
+for meal in menu:
+	for item in meal:
+		items.add(item)
+print(items)
+print("=" * 40)
+
+for meal in menu:
+	for item in items:
+		if item in meal:
+			print("{} contains {}".format(meal, item))
+			break
