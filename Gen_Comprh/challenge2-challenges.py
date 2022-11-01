@@ -33,7 +33,22 @@ forest = [locations[xit] for xit in exits if loc in exits[xit].values()]
 print(forest)
 print("=" * 80)
 
+forest = []
+for xit in exits:
+    if loc in exits[xit].values():
+        forest.append(locations[xit])
+print(forest)
+print("=" * 80)
+
+# for loc in sorted(locations):
+#     forest = [(exit, locations[exit]) for exit in exits if loc in exits[exit].values()]
+#     print("Locations leading to {}".format(loc), end = "\t")
+#     print(forest)
+
 for loc in sorted(locations):
-    forest = [(exit, locations[exit]) for exit in exits if loc in exits[exit].values()]
+    forest = []
+    for xit in exits:
+        if loc in exits[xit].values():
+            forest.append((xit, locations[xit]))
     print("Locations leading to {}".format(loc), end = "\t")
     print(forest)
