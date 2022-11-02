@@ -1,6 +1,8 @@
 import timeit
 
 
+setup = """\
+gc.enable()
 locations = {0: "You are sitting in front of a computer learning Python",
 			 1: "You are standing at the end of a road before a small brick building",
 			 2: "You are at the top of a hill",
@@ -14,6 +16,7 @@ exits = {0: {"Q": 0},
 		 3: {"W": 1, "Q": 0},
 		 4: {"N": 1, "W": 2, "Q": 0},
 		 5: {"W": 2, "S": 1, "Q": 0}}
+"""
 
 print("Nested for loops")
 print("----------------")
@@ -48,5 +51,9 @@ for index, loc in enumerate(exits_to_destination_3):
 	print(loc)
 """
 
-result_1 = timeit.timeit(nested_loop, globals=globals(), number=1000)
+result_1 = timeit.timeit(nested_loop, setup, number=10000)
+result_2 = timeit.timeit(loop_comp, setup, number=10000)
+result_3 = timeit.timeit(nested_comp, setup, number=10000)
 print("Nested Loop: \t{}".format(result_1))
+print("Comprehension Loop: \t{}".format(result_2))
+print("Nested Comprehension: \t{}".format(result_3))
