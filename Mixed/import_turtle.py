@@ -29,6 +29,8 @@ def encircled_square(length: int) -> None:
 	radius = length * cos(angle)
 	turtle.right(135)
 	turtle.circle(radius)
+	print(f"Inside function, namespace is: {dir()}")
+	print(f"locals: {locals()}")
 
 
 # turtle.speed("fast")
@@ -36,7 +38,7 @@ def encircled_square(length: int) -> None:
 # 	encircled_square(120)
 # 	turtle.left(5)
 #
-# # encircled_square(300)
+encircled_square(300)
 # turtle.done()
 
 print(dir())
