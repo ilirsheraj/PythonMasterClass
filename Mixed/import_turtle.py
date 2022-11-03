@@ -38,7 +38,10 @@ def encircled_square(length: int) -> None:
 # 	encircled_square(120)
 # 	turtle.left(5)
 #
-encircled_square(300)
+# encircled_square(300)
 # turtle.done()
 
-print(dir())
+print(dir())  # current scope
+g = globals()
+print(g["square"])
+print(dir(__builtins__))
