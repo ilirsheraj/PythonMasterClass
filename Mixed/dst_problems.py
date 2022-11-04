@@ -11,15 +11,15 @@ day = 27
 hour = 0
 minute = 25
 
-td = timedelta(minutes=5)
+td = timedelta(minutes=125)
 
-utc_time = datetime(year, month, day, hour, minute, tzinfo=timezone.utc)
-utc_time = utc_time + td
 uk_time = datetime(year, month, day, hour, minute, tzinfo=uk_tz)
-uk_time = uk_time + td
+utc_time = uk_time.astimezone(timezone.utc)
+utc_time = utc_time + td
+uk_time = utc_time.astimezone(uk_tz)
 uk_to_utc = uk_time.astimezone(timezone.utc)
-print(f'Line 19/20 - utc_time:\t {utc_time}')
-print(f'Line 21/22 - uk_time:\t {uk_time}')
+print(f'Line 20/21 - utc_time:\t {utc_time}')
+print(f'Line 22 - uk_time:\t\t {uk_time}')
 print(f'Line 23 - uk --> utc:\t {uk_to_utc}')
 
 ny1 = uk_time.astimezone(america_tz)
